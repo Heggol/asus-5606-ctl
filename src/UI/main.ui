@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <requires lib="gtk" version="4.0"/>
+    <object class="GtkBox" id="main_box">
+        <property name="orientation">vertical</property>
+        <property name="margin-top">12</property>
+        <property name="margin-bottom">12</property>
+        <property name="margin-start">12</property>
+        <property name="margin-end">12</property>
+        <property name="spacing">12</property>
+                <child>
+                    <object class="GtkLabel" id="fan_status_label">
+                        <property name="label"> Fan Status: Unknown </property>
+                    </object>
+                </child>
+                <child>
+                    <object class="GtkBox">
+                        <property name="orientation">horizontal</property>
+                        <property name="spacing">6</property>
+                        <property name="halign">center</property>
+                        <child>
+                            <object class="GtkButton" id="set_fan_state_0_button">
+                                <property name="label">Standard (0)</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkButton" id="set_fan_state_1_button">
+                                <property name="label">Quiet (1)</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkButton" id="set_fan_state_2_button">
+                                <property name="label">High-Performance (2)</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkButton" id="set_fan_state_3_button">
+                                <property name="label">Full-Performance (3)</property>
+                            </object>
+                        </child>
+                    </object>
+                </child>
+    </object>
+</interface>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/dev/heggo/Asus5606ctl">
+    <file>UI/main.ui</file>
+  </gresource>
+</gresources>
